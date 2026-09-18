@@ -42,3 +42,6 @@ next-env.d.ts
 
 # Large archives (to prevent Github push rejections)
 *.zip
+
+# Editor settings
+.vscode/
