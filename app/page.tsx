@@ -608,7 +608,7 @@ function ScrollCanvas() {
   const imagesRef = useRef<HTMLImageElement[]>([]);
   const frameIndex = useRef(1);
   const targetFrame = useRef(1);
-  const requestRef = useRef<number>();
+  const requestRef = useRef<number>(0);
   const isReducedMotion = useRef(false);
   const isImagesLoaded = useRef(false);
 
